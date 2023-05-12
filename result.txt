@@ -1,0 +1,39 @@
+192.168.100.7:21 open
+192.168.100.7:22 open
+192.168.100.5:80 open
+192.168.100.253:80 open
+192.168.100.6:80 open
+192.168.100.7:80 open
+192.168.100.10:135 open
+192.168.100.6:135 open
+192.168.100.3:135 open
+192.168.100.10:139 open
+192.168.100.3:139 open
+192.168.100.6:139 open
+192.168.100.10:445 open
+192.168.100.7:443 open
+192.168.100.6:445 open
+192.168.100.6:3306 open
+192.168.100.3:3306 open
+192.168.100.8:7000 open
+192.168.100.10:7680 open
+192.168.100.1:8088 open
+[*] NetInfo:
+[*]192.168.100.3
+   [->]gb@w192.168.100.3
+   [->]169.254.75.146
+   [->]169.254.125.105
+   [->]2408:823c:4b8d:4dd:6549:33d9:41e7:33ab
+   [->]2408:823c:4b8d:4dd::3a4
+   [->]2408:823c:4b8d:4dd:9099:1ae:388a:4bfc
+[*] NetBios: 192.168.100.6   WORKGROUP\WIN-4EUD91A4C6T           Windows Server 2012 R2 Datacenter 9600 
+[*] WebTitle: http://192.168.100.5      code:200 len:1419   title:None
+[*] WebTitle: http://192.168.100.1:8088 code:302 len:138    title:302 Found 跳转url: http://192.168.100.1:8088/login
+[*] WebTitle: http://192.168.100.1:8088/login code:200 len:1681   title:None
+[*] WebTitle: http://192.168.100.6      code:200 len:21561  title:常熟市信息化发展有限公司-测试
+[*] WebTitle: http://192.168.100.253    code:200 len:12839  title:APP
+[+] InfoScan:http://192.168.100.6      [MetInfo-米拓建站] 
+[*] WebTitle: http://192.168.100.7      code:302 len:123    title:None 跳转url: https://192.168.100.7:443/login.html
+[*] WebTitle: https://192.168.100.7     code:200 len:4134   title:iBMC Login
+[*] WebTitle: https://192.168.100.7:443/login.html code:200 len:4134   title:iBMC Login
+[*] WebTitle: http://192.168.100.8:7000 code:403 len:0      title:None
